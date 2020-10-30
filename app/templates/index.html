@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8" />
+  <title>Hello world!</title>
+</head>
+<body>
+	<form action="{{ url_for('photo') }}" method="POST">
+
+	<p>Hello my name is {{ name }}!<p>
+
+	<input type="text" id="sentence" name="sentence" required
+       minlength="3" maxlength="108" size="10">
+
+    	<input type="submit", value="predict">
+	</form>
+
+
+
+
+</body>
+</html>
+
